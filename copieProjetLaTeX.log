@@ -1,0 +1,2082 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.19)  16 APR 2018 01:17
+entering extended mode
+**./copieProjetLaTeX.tex
+(copieProjetLaTeX.tex
+LaTeX2e <2017/01/01> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("D:\Programme\MikTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("D:\Programme\MikTeX 2.9\tex\latex\base\bk10.clo"
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\Programme\MikTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("D:\Programme\MikTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("D:\Programme\MikTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
+
+("D:\Programme\MikTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("D:\Programme\MikTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2016/04/23 3.9r The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("D:\Programme\MikTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("D:\Programme\MikTeX 2.9\tex\latex\babel-french\frenchb.ldf"
+Language: frenchb 2017/01/15 v3.2f French support from the babel system
+
+("D:\Programme\MikTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FB@nonchar=\count89
+\FBcolonskip=\skip43
+\FBthinskip=\skip44
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip45
+\FBguill@level=\count90
+\FB@everypar=\toks16
+\FB@Mht=\dimen104
+\mc@charclass=\count91
+\mc@charfam=\count92
+\mc@charslot=\count93
+\std@mcc=\count94
+\dec@mcc=\count95
+\listindentFB=\skip46
+\descindentFB=\skip47
+\labelwidthFB=\skip48
+\leftmarginFB=\skip49
+\parindentFFN=\dimen105
+\FBfnindent=\skip50
+))
+("D:\Programme\MikTeX 2.9\tex\latex\carlisle\scalefnt.sty")
+("D:\Programme\MikTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("D:\Programme\MikTeX 2.9\tex\latex\jknappen\mathrsfs.sty"
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+("D:\Programme\MikTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+("D:\Programme\MikTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("D:\Programme\MikTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen106
+))
+("D:\Programme\MikTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("D:\Programme\MikTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks19
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks20
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("D:\Programme\MikTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("D:\Programme\MikTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("D:\Programme\MikTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks28
+)
+("D:\Programme\MikTeX 2.9\tex\latex\marginnote\marginnote.sty"
+Package: marginnote 2016/10/21 v1.2a non floating margin notes for LaTeX
+\c@mn@abspage=\count108
+)
+("D:\Programme\MikTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Programme\MikTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Programme\MikTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("D:\Programme\MikTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+
+("D:\Programme\MikTeX 2.9\tex\latex\graphics-def\dvips.def"
+File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+("D:\Programme\MikTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("D:\Programme\MikTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("D:\Programme\MikTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks29
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count109
+\TX@ftn=\toks30
+)
+\textlarg=\skip59
+
+("D:\Programme\MikTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen124
+\ttl@minus=\dimen125
+\ttl@toksa=\toks31
+\titlewidth=\dimen126
+\titlewidthlast=\dimen127
+\titlewidthfirst=\dimen128
+)
+("D:\Programme\MikTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+("D:\Programme\MikTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("D:\Programme\MikTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("D:\Programme\MikTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("D:\Programme\MikTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("D:\Programme\MikTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen129
+\Hy@linkcounter=\count110
+\Hy@pagecounter=\count111
+
+("D:\Programme\MikTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count112
+
+("D:\Programme\MikTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count113
+
+("D:\Programme\MikTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen130
+\Fld@menulength=\count114
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count115
+\c@Item=\count116
+\c@Hfootnote=\count117
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("D:\Programme\MikTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count118
+\c@bookmark@seq@number=\count119
+
+("D:\Programme\MikTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip62
+)
+\c@subsubsubsection=\count120
+
+("D:\Programme\MikTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("D:\Programme\MikTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("D:\Programme\MikTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count121
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("D:\Programme\MikTeX 2.9\tex\latex\tikzpagenodes\tikzpagenodes.sty"
+Package: tikzpagenodes 2012/09/16 v1.1 Special PGF/TikZ nodes for areas of the 
+page
+
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen133
+\pgfutil@tempdimb=\dimen134
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex"))
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box29
+
+("D:\Programme\MikTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen135
+\pgf@y=\dimen136
+\pgf@xa=\dimen137
+\pgf@ya=\dimen138
+\pgf@xb=\dimen139
+\pgf@yb=\dimen140
+\pgf@xc=\dimen141
+\pgf@yc=\dimen142
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count122
+\c@pgf@countb=\count123
+\c@pgf@countc=\count124
+\c@pgf@countd=\count125
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+))) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count126
+\pgfsyssoftpath@bigbuffer@items=\count127
+) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen143
+\pgfmath@count=\count128
+\pgfmath@box=\box30
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex"
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.c
+ode.tex")
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+")
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code
+.tex")
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex")
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex"
+) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+")
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmet
+ics.code.tex")))
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count129
+))
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen144
+\pgf@picmaxx=\dimen145
+\pgf@picminy=\dimen146
+\pgf@picmaxy=\dimen147
+\pgf@pathminx=\dimen148
+\pgf@pathmaxx=\dimen149
+\pgf@pathminy=\dimen150
+\pgf@pathmaxy=\dimen151
+\pgf@xx=\dimen152
+\pgf@xy=\dimen153
+\pgf@yx=\dimen154
+\pgf@yy=\dimen155
+\pgf@zx=\dimen156
+\pgf@zy=\dimen157
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.
+tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen158
+\pgf@path@lasty=\dimen159
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen160
+\pgf@shorten@start@additional=\dimen161
+) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count130
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.t
+ex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen162
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.cod
+e.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen163
+\pgf@pt@y=\dimen164
+\pgf@pt@temp=\dimen165
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code
+.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen166
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen167
+\pgf@sys@shading@range@num=\count131
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box34
+)) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.t
+ex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+))) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box35
+) ("D:\Programme\MikTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen168
+\pgf@nodesepend=\dimen169
+) ("D:\Programme\MikTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.st
+y"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("D:\Programme\MikTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("D:\Programme\MikTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code
+.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count132
+\pgfplotmarksize=\dimen172
+)
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
+\tikz@figbox=\box36
+\tikz@figbox@bg=\box37
+\tikz@tempbox=\box38
+\tikz@tempbox@bg=\box39
+\tikztreelevel=\count133
+\tikznumberofchildren=\count134
+\tikznumberofcurrentchild=\count135
+\tikz@fig@count=\count136
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count137
+\pgfmatrixcurrentcolumn=\count138
+\pgf@matrix@numberofcolumns=\count139
+)
+\tikz@expandcount=\count140
+
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibr
+arytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("D:\Programme\MikTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count141
+))
+("D:\Programme\MikTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibr
+arycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+) ("D:\Programme\MikTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("D:\Programme\MikTeX 2.9\tex\latex\background\background.sty"
+Package: background 2014/03/04 v2.1 background material
+
+("D:\Programme\MikTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("D:\Programme\MikTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("D:\Programme\MikTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks44
+\XKV@tempa@toks=\toks45
+)
+\XKV@depth=\count142
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("D:\Programme\MikTeX 2.9\tex\latex\everypage\everypage.sty"
+Package: everypage 2007/06/20 1.1 Hooks to run on every page
+)
+("D:\Programme\MikTeX 2.9\tex\latex\tools\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks46
+\AP@partial=\box40
+\AP@footins=\box41
+))
+No file copieProjetLaTeX.aux.
+\openout1 = `copieProjetLaTeX.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 157.
+("D:\Programme\MikTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \degres on input line 157.
+LaTeX Info: Redefining \dots on input line 157.
+LaTeX Info: Redefining \up on input line 157.
+Package marginnote Info: \pdfoutput not 0 or unimportant and
+(marginnote)             \pdflastxpos or \lastxpos available.
+(marginnote)             Extended position detection mode activated.
+\AtBeginShipoutBox=\box42
+Package hyperref Info: Link coloring OFF on input line 157.
+
+("D:\Programme\MikTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("D:\Programme\MikTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count143
+)
+LaTeX Info: Redefining \ref on input line 157.
+LaTeX Info: Redefining \pageref on input line 157.
+LaTeX Info: Redefining \nameref on input line 157.
+\@outlinefile=\write4
+\openout4 = `copieProjetLaTeX.out'.
+
+
+("D:\Programme\MikTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count144
+\scratchdimen=\dimen179
+\scratchbox=\box43
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen180
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks48
+) ("D:\Programme\MikTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("D:\Programme\MikTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 159.
+
+
+("D:\Programme\MikTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 159.
+
+
+("D:\Programme\MikTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 159
+.
+
+("D:\Programme\MikTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 159
+.
+
+("D:\Programme\MikTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 159.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 159.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 159.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 159.
+
+("D:\Programme\MikTeX 2.9\tex\latex\jknappen\ursfs.fd"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 159.
+
+("D:\Programme\MikTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 159.
+
+("D:\Programme\MikTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 159.
+
+
+("D:\Programme\MikTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 159.
+ [1
+Non-PDF special ignored!
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2
+
+]
+\tf@toc=\write5
+\openout5 = `copieProjetLaTeX.toc'.
+
+ [3] [4
+
+]
+LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <24.88> not available
+(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 163.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 165.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 165.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 165.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 165.
+
+
+! LaTeX Error: Command \textcent unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...symbolique, qui a maintenant acquis, gr√¢
+                                                  ce √† P√©ano et ses √©mule...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (6.8636pt too wide) in paragraph at lines 165--166
+\T1/lmr/m/n/10 Et d'autre part, la lo-gique sym-bo-lique, qui a main-te-nant ac
+-quis, gr√ce √  P√[]ano
+ []
+
+LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 167.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 167.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mathonesuperior ->{^1}
+                       
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 167.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 167.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 167.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 167.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 167.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no Ë in font lmex10!
+
+Overfull \hbox (162.36855pt too wide) in paragraph at lines 167--167
+\T1/lmr/m/n/8 publi√[] en 1903 o√$[]\OML/lmm/m/it/8 ilintroduitnotammentsonc\OT
+1/lmr/m/n/8 √[]\OML/lmm/m/it/8 l\OT1/lmr/m/n/8 √[]$ 
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.167 ...matique sont confondues. \textit{N.d.T.}}
+                                                   mais plus nous progressio...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (21.22913pt too wide) in paragraph at lines 167--168
+\T1/lmr/m/it/10 Math√[]matiques\T1/lmr/m/n/10 . Ce-pen-dant nous avons mis de c
+ot√[] les do-maines controvers√[]s
+ []
+
+
+Overfull \hbox (10.22289pt too wide) in paragraph at lines 167--168
+\T1/lmr/m/n/10 contraire d'une th√[]orie d√[]ductive dont la cr√[]dibilit√[] de
+s cons√[]quence
+ []
+
+[1
+
+]
+
+! LaTeX Error: Command \textcent unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 ...©ductif tel que celui-ci, il y a deux t√¢
+                                                  ches tr√®s diff√©rentes qu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \textcent unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 ...es pas restreint strictement √† cette t√¢
+                                                  che. Il est courant que l'...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \textcent unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...ermettre au lecteur de reconstruire, gr√¢
+                                                  ce aux r√©f√©rences, une p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (17.91731pt too wide) in paragraph at lines 173--174
+\T1/lmr/m/n/10 car si-non il se-rait tr√s dif-fi-cile de vi-sua-li-ser quels s
+ont les hy-po-th√ses r√[]ellement
+ []
+
+LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 174.
+[2]
+
+LaTeX Warning: Reference `theorietype' on page iii undefined on input line 179.
+
+
+
+Overfull \hbox (10.41643pt too wide) in paragraph at lines 179--180
+\T1/lmr/m/n/10 num√[]rot√[]es qui sont ind√[]pendantes de l'in-tro-duc-tion et 
+des r√[]sum√[]s.
+ []
+
+
+Overfull \hbox (16.66841pt too wide) in paragraph at lines 179--180
+\T1/lmr/m/n/10 Ceux-ci sont en-ti√rement ex-pli-ca-tifs, et ne font pas par-ti
+s de la chaine d√[]ductive.
+ []
+
+[3]
+Overfull \hbox (1.13948pt too wide) in paragraph at lines 183--184
+[]\T1/lmr/m/n/10 Un cer-tain nombre de r√[]f√[]rences vers des pas-sages ult√[]
+rieurs peuvent
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.185 ...tre source principale est Fredge. L√† o√π
+                                                   nous nous s√©parons de lu...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mathonesuperior ->{^1}
+                       
+l.185 ...tre source principale est Fredge. L√† o√π
+                                                   nous nous s√©parons de lu...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 185.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 ...trouve les r√©f√©rences de ces ouvrages.}
+                                                  .
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@marbox 
+                    
+l.185 ...trouve les r√©f√©rences de ces ouvrages.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.185 ...trouve les r√©f√©rences de ces ouvrages.}
+                                                  .
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]\T1/lmr/m/n/10 Il fau-drait que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\T1/lmr/m/n/10 je trouve les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\T1/lmr/m/n/10 r√[]f√[]rences de
+ []
+
+! Undefined control sequence.
+\@ympar ...\@marbox {#1}\global \setbox \@currbox 
+                                                  \copy \@marbox \@xympar 
+l.185 ...trouve les r√©f√©rences de ces ouvrages.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \copy 
+l.185 ...trouve les r√©f√©rences de ces ouvrages.}
+                                                  .
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\@ympar ...lobal \setbox \@currbox \copy \@marbox 
+                                                  \@xympar 
+l.185 ...trouve les r√©f√©rences de ces ouvrages.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \setbox 
+l.185 ...trouve les r√©f√©rences de ces ouvrages.}
+                                                  .
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 186.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186  √Ä
+          de nombreuses reprises nosu avons b√©n√©fici√© de l'aide d'amis, n...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 186.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 186.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 186.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 186.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 186.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.186 ...notamment M. G. G. Berry de la Biblioth√®
+                                                  que de Bodl√©ienne et M. R...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.186 ...notamment M. G. G. Berry de la Biblioth√®
+                                                  que de Bodl√©ienne et M. R...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.186 ...notamment M. G. G. Berry de la Biblioth√®
+                                                  que de Bodl√©ienne et M. R...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 186.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.187 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.187 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no Ë in font lmex10!
+
+Overfull \hbox (8.41719pt too wide) in paragraph at lines 185--187
+[]\T1/lmr/m/n/10 Les re-mer-cie-ments d√[]taill√[]s n√[]cessaires en-vers nos p
+r√[]d√[]cesseurs
+ []
+
+
+Overfull \hbox (31.41876pt too wide) in paragraph at lines 185--187
+\T1/lmr/m/n/10 n√[]cessaire, son syst√me sym-bo-lique avec ceux de Frege et de
+ Schr√\OMS/lmsy/m/n/10 {\T1/lmr/m/n/10 der.Cependant,
+ []
+
+
+Overfull \hbox (2807.32112pt too wide) in paragraph at lines 185--187
+\T1/lmr/m/n/10 les do-maines d'ana-lyse lo-gique, notre source prin-ci-pale est
+ Fredge. L√  o√$[]\OML/lmm/m/it/10 nousnouss\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10
+ paronsdelui; c[]estessentiellementcardescontradictionsontprouv\OT1/lmr/m/n/10 
+√[]\OML/lmm/m/it/10 que; toutcommedetouslesautreslogicienqu[]ilssoientr\OT1/lmr
+/m/n/10 √[]\OML/lmm/m/it/10 centsounon; ilavaitlaiss\OT1/lmr/m/n/10 √[]\OML/lmm
+/m/it/10 deserreursinfestersespr\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 misses\OT1/
+lmr/m/n/10 ; \OML/lmm/m/it/10 maisn[]eut\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 t\O
+T1/lmr/m/n/10 √[]\OML/lmm/m/it/10 cescontradictions; ileut\OT1/lmr/m/n/10 √[]\O
+ML/lmm/m/it/10 t\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 presqueimpossibleded\OT1/lm
+r/m/n/10 √[]\OML/lmm/m/it/10 tecterseserreurs:Enarithm\OT1/lmr/m/n/10 √[]\OML/l
+mm/m/it/10 tiquesetpourlessuites; tousnotretravailestfond\OT1/lmr/m/n/10 √[]\OM
+L/lmm/m/it/10 surceluideGeorgCantor:Eng\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 om\O
+T1/lmr/m/n/10 √[]\OML/lmm/m/it/10 trie; nousavionstoujourssousnosyeuxles\OT1/lm
+r/m/n/10 √[]\OML/lmm/m/it/10 critsdev:Staudt; Pasch; Peano; PierietVeblen:\OT1/
+lmr/m/n/10 √\OML/lmm/m/it/10 denombreusesreprisesnosuavonsb\OT1/lmr/m/n/10 √[]\
+OML/lmm/m/it/10 n\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 fici\OT1/lmr/m/n/10 √[]\OM
+L/lmm/m/it/10 del[]aided[]amis; notammentM:G:G:BerrydelaBiblioth\OT1/lmr/m/n/10
+ √[]$ 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 193.
+
+("D:\Programme\MikTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [4]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write6
+\openout6 = `copieProjetLaTeX.toc'.
+
+[5
+
+] [6
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 199.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 199.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 199.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.200 ...Dr. Behmann et Boscovitch de G√µttingen.}
+                                                  , bien qu'ils aient √©t√© ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.200 ...Dr. Behmann et Boscovitch de G√µttingen.}
+                                                  , bien qu'ils aient √©t√© ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (35.1755pt too wide) in paragraph at lines 200--201
+[]\T1/lmr/m/n/10 Lors de la pr√[]paration de cette nou-velle √[]dition[][][] de
+s \T1/lmr/m/it/10 Prin-ci-pia Math√[]matica\T1/lmr/m/n/10 ,
+ []
+
+[7] [8
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.221 \part*{Introduction}
+                           [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.221 \part*{Introduction}
+                           [2]
+
+LaTeX Warning: Reference `logiquemath' on page 3 undefined on input line 223.
+
+
+Overfull \hbox (14.9169pt too wide) in paragraph at lines 223--224
+[]\T1/lmr/m/n/10 La lo-gique math√[]matique qui oc-cupe la par-tie [] a √[]t√[]
+ d√[]velopp√[]e
+ []
+
+
+LaTeX Warning: Reference `secDes' on page 3 undefined on input line 225.
+
+
+LaTeX Warning: Reference `secFonctionDes' on page 3 undefined on input line 225
+.
+
+
+LaTeX Warning: Reference `secGenRel' on page 3 undefined on input line 225.
+
+
+LaTeX Warning: Reference `secGenClass' on page 3 undefined on input line 225.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.230 \item L
+             a structure grammaticale du langage est adapt√©e √† une grande ...
+[3]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.231 ...ments dans des r√©gions de la pens√©e o√π
+                                                   l'imagination serait tota...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mathonesuperior ->{^1}
+                       
+l.231 ...ments dans des r√©gions de la pens√©e o√π
+                                                   l'imagination serait tota...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 231.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 231.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 231.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 231.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \item
+            La concision du symbolisme permet √† toute une proposition d'√™t...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \item L
+             a concision du symbolisme permet √† toute une proposition d'√™t...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \item L
+             a concision du symbolisme permet √† toute une proposition d'√™t...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \textordfeminine invalid in math mode on input line 232.
+
+
+
+LaTeX Warning: Command \oe invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 232.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.232 ...ecdotique, mais qui en r√©alit√© est tr√®
+                                                  s importante lorsqu'on la ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.232 ...ecdotique, mais qui en r√©alit√© est tr√®
+                                                  s importante lorsqu'on la ...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.232 ...ecdotique, mais qui en r√©alit√© est tr√®
+                                                  s importante lorsqu'on la ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 232.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.232 ...st tr√®s importante lorsqu'on la consid√®
+                                                  re √† la lumi√®re de la pr...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.232 ...st tr√®s importante lorsqu'on la consid√®
+                                                  re √† la lumi√®re de la pr...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.232 ...st tr√®s importante lorsqu'on la consid√®
+                                                  re √† la lumi√®re de la pr...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 232.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.232 ...ante lorsqu'on la consid√®re √† la lumi√®
+                                                  re de la propri√©t√© pr√©c...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.232 ...ante lorsqu'on la consid√®re √† la lumi√®
+                                                  re de la propri√©t√© pr√©c...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.232 ...ante lorsqu'on la consid√®re √† la lumi√®
+                                                  re de la propri√©t√© pr√©c...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 232.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 \item
+            L'√©num√©ration compl√®te de tous les concepts et de toutes les ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.233 \item L
+             '√©num√©ration compl√®te de tous les concepts et de toutes les ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.233 \item L
+             '√©num√©ration compl√®te de tous les concepts et de toutes les ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.233 \item L
+             '√©num√©ration compl√®te de tous les concepts et de toutes les ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.233 \item L
+             '√©num√©ration compl√®te de tous les concepts et de toutes les ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.233 \item L
+             '√©num√©ration compl√®te de tous les concepts et de toutes les ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no Ë in font lmex10!
+Missing character: There is no Ë in font lmex10!
+Missing character: There is no Ë in font lmex10!
+
+Overfull \hbox (0.72414pt too wide) in paragraph at lines 231--233
+\T1/lmr/m/n/10 re-la-tions pos-sibles entre ces sym-boles, telles que d√[]finie
+s par les r√gles
+ []
+
+
+Overfull \hbox (3009.32727pt too wide) in paragraph at lines 231--233
+\T1/lmr/m/n/10 la pens√[]e o√$[]\OML/lmm/m/it/10 l[]imaginationseraittotalement
+inefficacesansl[]apportdusymbolisme:Lelangageordinairen[]apportepasunetelleaide
+:Unestructuregrammaticalenerepr\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 sentepasuniq
+uementlesrelationsentrelesid\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 esimpliqu\OT1/l
+mr/m/n/10 √[]\OML/lmm/m/it/10 es:Ainsi\OT1/lmr/m/n/10 "\OML/lmm/m/it/10 unebale
+ineestgrosse\OT1/lmr/m/n/10 "\OML/lmm/m/it/10 et\OT1/lmr/m/n/10 "\OML/lmm/m/it/
+10 unestunnombre\OT1/lmr/m/n/10 "\OML/lmm/m/it/10 seressemblantdanslastructure;
+ n[]apportentaucuneaidevisuelle\OT1/lmr/m/n/10 √ \OML/lmm/m/it/10 l[]imaginatio
+n:[]Laconcisiondusymbolismepermet\OT1/lmr/m/n/10 √ \OML/lmm/m/it/10 touteunepro
+positiond[]\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 trelisibled[]unseulcoupd[]\OT1/l
+mr/m/n/10 ˜\OML/lmm/m/it/10 il; enunseulblocou; auplus; endeuxoutrois; simpleme
+ntdivis\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 sl\OT1/lmr/m/n/10 √ \OML/lmm/m/it/10
+ o\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 less\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 p
+arationsnaturelles\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 quelesymbolismemat\OT1/lmr/
+m/n/10 √[]\OML/lmm/m/it/10 rialise\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 ontlieu:C[]
+estunepropri\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 t\OT1/lmr/m/n/10 √[]\OML/lmm/m/
+it/10 quipeutsembleranecdotique; maisquienr\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 
+alit\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 esttr\OT1/lmr/m/n/10 √[]$ 
+ []
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...ssez pouss√© pour √©viter les erreurs. √Ä
+                                                   ce sujet, il ne faut pas ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Overfull \hbox (10.84065pt too wide) in paragraph at lines 240--241
+\T1/lmr/m/n/10 prit suf-fi-sam-ment √[]duqu√[]. Pour de telles re-cherches, la 
+pr√[]sentation
+ []
+
+
+Overfull \hbox (13.08362pt too wide) in paragraph at lines 240--241
+\T1/lmr/m/n/10 d√[]taill√[]e de toutes les √[]tapes du rai-son-ne-ment est bien
+ √[]videment
+ []
+
+
+Overfull \hbox (1.80775pt too wide) in paragraph at lines 240--241
+\T1/lmr/m/n/10 su-per-flue, tant que le ni-veau de d√[]tail est as-sez pouss√[]
+ pour √[]viter
+ []
+
+
+Overfull \hbox (4.29205pt too wide) in paragraph at lines 240--241
+\T1/lmr/m/n/10 et de ses coll√gues ont montr√[] que, m√$[]$me dans les math√[]
+matiques
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.242 \end{enumerate}
+                      [4] [5] [6
+
+]
+Chapitre 1.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.257 ... les limites de sens des affirmations o√π
+                                                   ces variables apparaissen...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mathonesuperior ->{^1}
+                       
+l.257 ... les limites de sens des affirmations o√π
+                                                   ces variables apparaissen...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 257.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 257.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 257.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.257 ..., et par cons√©quent elles sont intrins√®
+                                                  quement d√©termin√©e par l...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.257 ..., et par cons√©quent elles sont intrins√®
+                                                  quement d√©termin√©e par l...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.257 ..., et par cons√©quent elles sont intrins√®
+                                                  quement d√©termin√©e par l...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 257.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 257.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 257.
+
+
+LaTeX Warning: Reference `ch:typeLog' on page 7 undefined on input line 257.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.258 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.258 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no Ë in font lmex10!
+
+Overfull \hbox (12.99182pt too wide) in paragraph at lines 257--258
+ []\T1/lmr/bx/n/10 Les va-riables[] \T1/lmr/m/n/10 Le concept de va-riable, tel
+ qu'il ap-pa-rait ici, est plus g√[]n√[]rale
+ []
+
+
+Overfull \hbox (526.75223pt too wide) in paragraph at lines 257--258
+\T1/lmr/m/n/10 les li-mites de sens des af-fir-ma-tions o√$[]\OML/lmm/m/it/10 c
+esvariablesapparaissent; etparcons\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 quentelle
+ssontintrins\OT1/lmr/m/n/10 √[]$ 
+ []
+
+[7]
+LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 266.
+
+
+LaTeX Warning: Reference `sq:produitsommeclasse' on page 8 undefined on input l
+ine 266.
+
+
+LaTeX Warning: Reference `sq:produitsommeclasse' on page 8 undefined on input l
+ine 266.
+
+
+LaTeX Warning: Reference `sq:domaine' on page 8 undefined on input line 267.
+
+
+Overfull \hbox (18.61346pt too wide) in paragraph at lines 269--270
+\T1/lmr/m/n/10 utilis√[]es pour des va-riables dont les va-leurs sont des class
+es, et on s'y r√[]f√[]rera
+ []
+
+
+Overfull \hbox (75.55252pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 8 \T1/lmr/m/sl/10 CHAPITRE 1.  EXPLICATION PR√[]LIMINAIRES DES C
+ONCEPTS ET DES NOTATIONS
+ []
+
+[8]
+Overfull \hbox (43.11392pt too wide) in paragraph at lines 288--289
+\T1/lmr/m/n/10 Ces fonc-tions, telle que nous les uti-li-se-rons dans cet ou-vr
+age, ne sont pas ind√[]pendantes ;
+ []
+
+
+Overfull \hbox (10.33273pt too wide) in paragraph at lines 288--289
+\T1/lmr/m/n/10 pre-nant les deux pre-mi√res fonc-tions comme pri-mi-tive ainsi
+ qu'une √[]l√[]gante
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.290 La n√©gation de l'argument $p$, o√π
+                                          $p$ est n'importe quelle propositi...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mathonesuperior ->{^1}
+                       
+l.290 La n√©gation de l'argument $p$, o√π
+                                          $p$ est n'importe quelle propositi...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 290.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.290 ...s vrai. Cette fonction sera √©crite $\sim
+                                                   p$. D√®s lors $\sim p$ es...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (499.763pt too wide) in paragraph at lines 290--291
+[]\T1/lmr/m/n/10 La n√[]gation de l'ar-gu-ment $\OML/lmm/m/it/10 p$\T1/lmr/m/n/
+10 , o√$[]$p$\OML/lmm/m/it/10 estn[]importequelleproposition; etlapropositionqu
+iestlecontrairede$\T1/lmr/m/n/10 p$\OML/lmm/m/it/10 =; c[]estainsilaproposition
+quiaffirmeque$\T1/lmr/m/n/10 p$\OML/lmm/m/it/10 n[]estpasvrai:Cettefonctionsera
+\OT1/lmr/m/n/10 √[]\OML/lmm/m/it/10 crite$$\OMS/lmsy/m/n/10 
+ []
+
+[9]
+Overfull \hbox (18.04247pt too wide) in paragraph at lines 302--304
+\T1/lmr/m/n/10 quatre pro-po-si-tions fon-da-men-tales. Deux pro-po-si-tions $\
+OML/lmm/m/it/10 q$ \T1/lmr/m/n/10 et $\OML/lmm/m/it/10 q$ \T1/lmr/m/n/10 sont d
+ites √[]quivalente
+ []
+
+
+Overfull \hbox (80.55252pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 10 \T1/lmr/m/sl/10 CHAPITRE 1.  EXPLICATION PR√[]LIMINAIRES DES 
+CONCEPTS ET DES NOTATIONS
+ []
+
+[10]
+LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <8> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 305.
+ [11]
+Overfull \hbox (80.55252pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 12 \T1/lmr/m/sl/10 CHAPITRE 1.  EXPLICATION PR√[]LIMINAIRES DES 
+CONCEPTS ET DES NOTATIONS
+ []
+
+[12
+
+]
+Chapitre 2.
+[13] [14
+
+]
+Chapitre 3.
+[15] [16
+
+] [17] [18]
+LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <14.4> not available
+(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 328.
+ [19] [20
+
+]
+Chapitre 4.
+
+Overfull \hbox (2.2126pt too wide) in paragraph at lines 331--331
+|[]\T1/lmr/bx/n/14.4 Cons√[]quences imm√[]diates des id√[]es
+ []
+
+[21] [22
+
+]
+Chapitre 5.
+
+Overfull \hbox (2.98857pt too wide) in paragraph at lines 337--337
+|[]\T1/lmr/bx/n/14.4 Th√[]orie des pro-po-si-tions conte-nant un va-
+ []
+
+
+Overfull \hbox (77.62585pt too wide) in paragraph at lines 338--338
+|[]\T1/lmr/bx/n/14.4 Hi√[]rarchie des types et axiome de r√[]ductibilit√[]| 
+ []
+
+[23] [24
+
+]
+Chapitre 6.
+[25] [26
+
+]
+Chapitre 7.
+[27] [28
+
+]
+Chapitre 8.
+[29] [30
+
+]
+No file copieProjetLaTeX.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
+(copieProjetLaTeX.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+
+
+Package rerunfilecheck Warning: File `copieProjetLaTeX.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `copieProjetLaTeX.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  B06AE440EBCAB0A19B1EEE28967E3B15;3380.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
+ )
+(\end occurred inside a group at level 3)
+
+### simple group (level 3) entered at line 290 ({)
+### simple group (level 2) entered at line 257 ({)
+### simple group (level 1) entered at line 185 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 18836 strings out of 493333
+ 341923 string characters out of 3140921
+ 416857 words of memory out of 3000000
+ 21868 multiletter control sequences out of 15000+200000
+ 108554 words of font info for 94 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,13n,56p,2373b,1429s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced bu
+t does not exist, replaced by a fixed one
+
+{D:/Programme/MikTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{D:/Programme/MikTeX 2.9/
+fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Programme/MikTeX 2.9/fonts/enc/dvips/lm/lm
+-rm.enc}{D:/Programme/MikTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<D:/Programme
+/MikTeX 2.9/fonts/type1/public/lm/lmbsy10.pfb><D:/Programme/MikTeX 2.9/fonts/ty
+pe1/public/lm/lmbx10.pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lmbx12.
+pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><D:/Programme/Mik
+TeX 2.9/fonts/type1/public/lm/lmmi8.pfb><D:/Programme/MikTeX 2.9/fonts/type1/pu
+blic/lm/lmr10.pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lmr12.pfb><D:/
+Programme/MikTeX 2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programme/MikTeX 2.9/f
+onts/type1/public/lm/lmr6.pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lm
+r7.pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lmr8.pfb><D:/Programme/Mi
+kTeX 2.9/fonts/type1/public/lm/lmri10.pfb><D:/Programme/MikTeX 2.9/fonts/type1/
+public/lm/lmri8.pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lmro10.pfb><
+D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><D:/Programme/MikTeX 2
+.9/fonts/type1/public/lm/lmsy6.pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/
+lm/lmsy7.pfb><D:/Programme/MikTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><D:/Progr
+amme/MikTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on copieProjetLaTeX.pdf (42 pages, 440315 bytes).
+PDF statistics:
+ 367 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
