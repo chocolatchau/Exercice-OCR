@@ -1,0 +1,381 @@
+
+\documentclass[a4paper]{book}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[frenchb]{babel}
+
+\usepackage{mathrsfs}
+\usepackage{amsmath} % AMS Math Package
+\usepackage{amssymb}
+\usepackage{amsthm} % Theorem Formatting
+
+\usepackage{marginnote}
+
+
+
+\usepackage[dvips]{graphicx}
+\usepackage{lmodern} 
+\usepackage{tabularx}
+\newlength{\textlarg}
+\setcounter{secnumdepth}{4}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%subsubsubsections%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+  {3.25ex \@plus1ex \@minus.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+  {3.25ex \@plus1ex \@minus .2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@paragraph{6}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xcolor}
+
+
+\definecolor{deft}{gray}{0.85}
+\definecolor{defl}{RGB}{170,220,220}
+\definecolor{defs}{RGB}{131,255,135}
+
+%définition litéraire
+\newcommand{\defl}[1]{\begin{center}\fcolorbox{black}{defl}{\begin{minipage}{9cm}#1\end{minipage} }\end{center}}
+
+%définition de transfert  
+
+\newcommand{\deft}[1]{{\begin{center}\fcolorbox{black}{deft}{\begin{minipage}{9cm} #1 \end{minipage} }\end{center}}}
+
+%formule de définition \defs{symbole}{définition}
+%le \label defs=symbole employé est automatiquement attribué
+
+\newcommand{\defs}[2]{{\begin{center}\fcolorbox{black}{defs}{\begin{minipage}{9cm} \begin{equation}
+#1 = #2 \label{defs=#1}\qquad\mathfrak{Df}
+\end{equation} \end{minipage} }\end{center}}}
+\newcommand{\soit}{\qquad\mathfrak{Df}}
+%Texte dans la marge
+
+\newcommand{\marge}[1]{\marginpar{\begin{center}
+\begin{minipage}{3.5cm}{#1}\end{minipage}
+\end{center}}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc}
+\usepackage{ifthen}\usepackage[contents={},opacity=1,scale=1.485]{background}
+
+
+
+\backgroundsetup{
+scale=1,
+angle=0,
+contents={\tikz[remember picture,overlay]\fill[green!30] (current page marginpar area.north west|-current page.north west) rectangle (current page marginpar area.south east|-current page.south east);
+}}
+
+
+
+
+
+\pagestyle{headings}
+\title{Principia Mathematica}
+\author{RABAUD-CASOLI Noé}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\frontmatter
+
+\chapter{Préface}
+ 
+Le livre que vous êtes en train de lire traite de l'étude mathématique des principes des mathématiques. Cette étude est née de la fusion de deux domaines d'études différents. D'une part, la géométrie et l'analyse qui sont deux domaines dans lesquelles les mathématiciens on cherché à formuler et systématiser les axiomes, ainsi que les travaux de Cantor et d'autres mathématiciens sur des sujets tels que la théorie des agrégats. Et d'autre part, la logique symbolique, qui a maintenant acquis, grâce à Péano et ses émules, la rigueur et l'exhaustivité nécessaire au traitement de ce qui est à ce jour le fondement des mathématiques. De cette fusion résulte, principalement, que ce qui était considéré tacitement ou explicitement comme un axiome était soit démontrable soit inutile ; mais aussi que des méthodes semblables à celle utilisées pour démontrer ces soit-disant axiomes, pouvait être utilisées dans des domaines considérés jusqu'à présent comme inaccessibles à notre entendement, comme les infinis, et permettre d'obtenir des résultats de grande importance. De ce fait, le domaine des mathématiques se voit étendues par l'ajout de nouveaux champs de recherches, mais aussi par d'une réflexion sur ses fondation, dans un domaine jusqu'à présent abandonné aux philosophes. 
+ 
+Lorsque nous avons commencé à écrire cet ouvrage en 1900, c'était dans le but de fournir un second volume aux \textit{Principes des Mathématiques} \footnote{\textit{The Principles of Mathematics} est un ouvrage précédent de Bertrand Russel publié en 1903 où il introduit notamment son célèbre paradoxe et l'idée que la logique et les mathématique sont confondues. \textit{N.d.T.}} mais plus nous progression dans notre étude plus il devint évident que le sujet était bien plus vaste que nous ne l'avions supposé ; par ailleurs, sur de nombreuses questions fondamentales que nous avions laissé en suspend dans le premier volume, nous sommes à présent arrivé à des résolutions qui nous semblent satisfaisantes. C'est pourquoi il était nécessaire que notre ouvrage soit écrit de manière indépendante des \textit{Principes des Mathématiques}. Cependant nous avons mis de coté les domaines controversés ou généraux de la philosophie pour énoncer nos affirmation de manière dogmatique. La raison de ce choix est que la justification principale de toute théorie des principes mathématiques est nécessairement inductive, c'est à dire qu'on doit pouvoir reconstruire les mathématiques classiques à partir de la théorie des principes en question. En mathématiques les proposition qui nous sont le plus intuitives ne sont pas les fondements mais certaines conclusion qu'on peut en tirer. C'est lorsqu'on peut atteindre ce genre de proposition qu'on considérera les prémisses comme crédibles, au contraire d'une théorie déductive dont la crédibilité des conséquence repose sur la croyance en ses prémisses.
+ 
+Lorsqu'on établi un système déductif tel que celui-ci, il y a deux tâches très différentes qu'il faut mener à bien de front. D'un part, l'analyse des mathématiques actuelles pour rechercher les prémisses utilisé, vérifier qu'ils sont cohérents entre eux et qu'ils ne peuvent pas être réduits en d'autres plus fondamentaux. D'autre part, il faut reconstruire les mathématiques à partir des prémisses que nous avons gardés et ré-établir suffisamment de conséquence pour justifier la validité de nos propos. Dans le présent ouvrage, nous n'avons pas relaté cette part d'analyse préalable, mais dont les résultats apparaissent uniquement dans les axiomes proposés. Nous ne prétendons pas que les l'analyse n'aurait pas put remonter plus loin, il n'y a aucune raison de penser le contraire, que des axiomes plus fondamentaux n'auraient pas put être trouvés pour pouvoir établir les nôtres. Tout ce que nous prétendons, c'est que les axiomes dont nous partons sont suffisants, pas qu'il sont nécessaires.
+ 
+Par ailleurs, nous avons considéré qu'il était nécessaire de pousser les déductions à partir des prémisses jusqu'à avoir ré-établi les vérités généralement admises. Cependant nous ne nous sommes pas restreint strictement à cette tâche. Il est courant que l'on ne considère que des cas particulier, même lorsque nos outils permettent de traiter tout aussi simplement le cas général. Par exemple, l'arithmétique des cardinaux est généralement conçue en relation avec les nombre finis mais fonctionne tout aussi bien avec les nombre transfinis et il est plus aisé de la démontrer sans faire de distinction entre les nombre finis et les infinis.  De la même manière de nombreuses propriétés associées aux séries demeurent valable pour des arrangement qui ne sont pas à proprement parler des séries mais dont certaines propriétés intrinsèques sont celles des arrangements en séries. Dans de tels cas, c'est une erreur logique de  ne prouver que pour un seule catégorie d'arrangements ce qui aurait put être prouvé de manière plus générale. Dans tout notre travail, un procédé de généralisation similaire est impliqué de manière plus ou moins importante. Nous avons toujours recherché les hypothèses les plus générales et raisonnablement simples à partir desquelles il était possible d'aboutir à une conclusion donnée. Pour cette raison, et cela surtout dans la fin de l'ouvrage, l'importance des propositions relève surtout de ses hypothèses. Souvent ces conclusion seront familières dans un certain nombre de cas, mais les hypothèses restreintes permettront lorsque que cela est possible d'englober d'autre cas plus ou moins proches de ceux qui nous sont familiers. 
+ 
+Nous avons jugé nécessaire de développer entièrement les preuves, car sinon il serait très difficile de visualiser quels sont les hypothèses réellement nécessaires et si le résultat découle bien des prémisses explicités. (Il faut se souvenir que nous n'affirmons pas simplement que tel et tel proposition sont vraies, mais aussi que les axiomes que nous avons établis sont suffisant pour les démontrer.) Bien que le détail de toutes les preuves soient nécessaires pour éviter les erreurs et convaincre ceux qui pourraient avoir un doute, celles-ci peuvent être sautées par le lecteur qui n'est pas tant que cela intéressé par cette partie du sujet et qui n'aurait aucun doute quant à notre maitrise du sujet. Le lecteur qui serait particulièrement intéressé par certaine partie de ce livre pourra probablement se contenter de lire le résumé des parties et sections précédentes car il y trouvera l'explication des idées impliquées et les principaux énoncés prouvés. Cependant les démonstrations effectuées dans la section A de la première partie sont nécessaires car c'est à cet endroit que la manière de construire un preuve est établie. Les preuves des premières propositions sont détaillés sans aucune omission d'aucune étape, mais au fur et à mesure de l'ouvrage, les preuves seront de plus en plus condensées, en laissant suffisamment de détails pour permettre au lecteur de reconstruire, grâce aux références, une preuve dans laquelle aucune étape ne serait sous entendue.
+ 
+L'ordre des chapitre est majoritairement dicté par des nécessités logiques, cependant certaines parties sont indépendantes jusqu'à un certain point et on peut considérer leur ordre comme relativement optionnel. C'est les cas par exemple de l'arithmétique des cardinaux et des relations qui est traitée avant les suites, mais nous aurions tout aussi bien put parler des suites en premier.
+ 
+Les paradoxes et les contradiction qui infectent la logique et la théorie des agrégat ont monopolisé un part considérable du travail d'écriture de cet ouvrage. Nous avons examiné un grand nombre d'hypothèses pour défaire ces contradictions ; dont une bonne part ont été avancées par d'autres logiciens et environ autant l'ont été par nos soin. Il nous a parfois fallu plusieurs mois pour admettre qu'un hypothèse ne tenait pas la route. Lors d'un travail d'une telle ampleur, il n'est pas étonnant qu'il nous ai fallut changer régulièrement d'avis ; mais il est progressivement devenu évident qu'une espèce de théorie de types devrait être adoptée pour éviter toute forme de contradiction. La forme de cette théorie que nous avons développé dans cet ouvrage n'est pas une nécessité logique et d'autre formes sont compatibles avec la véracité de nos déductions. Nous l'avons particularisé, à la fois car cette forme nous semblait le plus probable et car il était nécessaire de construire au moins une théorie parfaitement développée pour éviter les contradictions. Mais très peu de choses seraient modifiées dans notre livre par l'utilisation d'une autre forme de la théorie des types. En fait, nous pouvons aller jusqu'à affirmer que, à supposer que d'autres moyens d'éviter les contradictions existent, presque rien dans cet ouvrage, à l'exception des passages qui manipulent directement des concepts liés à la théorie des types, ne dépend de du type ou de la forme de théorie des types adoptée ; dés lors il est prouvé (nous pretendons avoir prouvé) qu'il était possible de construire une logique mathématique qui ne mène pas à une contradiction. On peut alors constater que la théorie des types est une théorie négative, elle interdit certaines déductions qui seraient sans cela considérées comme valides, mais n'en autorise aucune qui serait, sans elle, invalide. C'est pourquoi on peut raisonnablement supposer que les déductions autorisées par la théorie des types demeurerons vrai même si on cette dernière s'avérait fausse. 
+ 
+Le système logique est entièrement explicité dans les propositions numérotées qui sont indépendantes de l'introduction et des résumés. Ceux-ci sont entièrement explicatifs, et ne font pas partis de la chaine déductive. Les explications sur la hiérarchie des types présentées dans l'introduction sont légèrement différentes de celles données dans le \ref{theorietype} du corps de l'ouvrage. Cette dernière étant plus rigoureuse et celle qui est utilisée dans le reste du livre. 
+ 
+La notation symbolique c'est avérée être une nécessité : sans, nous n'aurions pas été capable réaliser les raisonnements nécessaires. Elle a été développée au fur et à mesure de notre pratique et n'est pas une fantaisie introduite pour le simple but de l'esthétique. La méthode générale qui préside à l'utilisation de ces symboles est due à Péano. Son plus grand mérite n'est pas tant ces déductions en logique ni dans les notations qu'il a introduites (toutes excellentes que les deux soient), mais d'avoir montré que la logique symbolique devait être libérée de son attachement obsessif à l'algèbre ordinaire et d'en avoir fait un outil utilisable pour la recherche. Guidé par notre étude de ses méthodes, nous nous sommes sentis libre de construire, et de reconstruire, un symbolisme qui devrais être adapté à toutes les parties que nous avons traitées. Aucun symbole n'a été introduit si ce n'est sur la base de son utilité immédiates dans nos raisonnements. 
+ 
+Un certain nombre de références vers des passages ultérieurs peuvent être trouvées dans les notes et les explications. Cependant nous avons pris toutes les précautions nécessaires pour vérifier la rigueur de ces annonces, mais nous ne pouvons bien sur pas le faire avec autant de confiance qu'avec des références à des passages antérieurs. 
+ 
+Les remerciements détaillés nécessaires envers nos prédécesseurs n'ont pas souvent été possibles, car il nous a fallut transformer tout ce que nous avions emprunté pour l'adapter à notre système et à nos notations. Nos principales sources bibliographiques seront évidentes à tout lecteur qui serait familier avec la littérature du sujet. De manière générale, nous avons principalement utilisé les travaux de Péano, en étendant, lorsque nécessaire, son système symbolique avec ceux de Frege et de Schröder.Cependant, une grand part du symbolisme a dut être inventée, non pas que les symbolisme précédant ne nous plaisaient pas, mais car les idées que nous manipulions n'avaient pas été précédemment symbolisées. Dans tous les domaines d'analyse logique, notre source principale est Fredge. Là où nous nous séparons de lui, c'est essentiellement car des contradictions ont prouvé que, tout comme de tous les autres logicien qu'ils soient récents ou non,  il avait laissé des erreurs infester ses prémisses ; mais n'eut été ces contradictions, il eut été presque impossible de détecter ses erreurs. En arithmétiques et pour les suites, tous notre travail est fondé sur celui de Georg Cantor. En géométrie, nous avions toujours sous nos yeux les écrits de v. Staudt, Pasch, Peano, Pieri et Veblen\marge{Il faudrait que je trouve les références de ces ouvrages.}. 
+ À de nombreuses reprises nosu avons bénéficié de l'aide d'amis, notamment M. G. G. Berry de la Bibliothèque de Bodléienne et M. R. G. Hawtrey.
+ 
+Il nous faut remercier le Conseil de la Royal Society de nous avoir consenti un prêt de £200 du Fond Gouvernemental de Publication et aussi au Syndicat des Presses Universitaires d'avoir supporté la majeur partie du coût de production de cet ouvrage. L'excellence technique, dans tous les domaines, des Presses Universitaires, le zèle et l'aide de ses membres ont concrètement simplifié le travail de correction des preuves. 
+ 
+Un second volume est déjà sous presses et il devrait paraitre avec un troisième volume dès que l'impression sera terminée.
+\begin{flushright}
+\texttt{A. N. W.\\
+B. R.}
+\end{flushright}  
+\texttt{Cambridge,}\\
+\textit{novembre 1910}
+\tableofcontents
+
+\chapter*{Introduction de la seconde édition\footnote{Pour cette introduction, tout comme pour les annexes, les auteurs sont redevables à M. F. P. Ramsey du King's College à Cambridge, qui a lu l'ensemble en manuscrit et fourni des critiques et des suggestions très profitables.}}
+Lors de la préparation de cette nouvelle édition\footnote{Edition de 1925 (\textit{NdT})}  des \textit{Principia Mathématica}, les auteurs on choisi de conservé le texte inchangé, à l'exception de des coquilles et des erreurs mineurs\footnote{Nous somme d'ailleurs redevable a de nombreux lecteurs pour leur lecture attentive, et tout spécialement aux Dr. Behmann et Boscovitch de Gõttingen.}, bien qu'ils aient été conscient de l'existence d'améliorations possibles. La principale raison de ce choix et que tout altération des propositions aurait remis en cause les références internes, ce qui aurait représenté un travail immense. Il a alors semblé préférable d'ajouter dans une introduction les principales améliorations qui semblaient nécessaires. Certaines sont peu discutables, d'autres cependant sont une affaire d'opinion.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\mainmatter
+
+\part*{Introduction}
+
+La logique mathématique qui occupe la partie \ref{logiquemath} a été développée en gardant à l'esprit trois objectifs. Tout d'abord, nous avons cherché a produire l'analyse la plus poussée possible des concepts manipulés et des procédés démonstratifs tout en diminuant à l'extrême le nombre de propositions non-démontrées et de concepts non définis (appelés respectivement propositions primitives et concepts primitifs) sur lesquels cette analyse se fonde. Dans un second temps elle a été conçue dans le but de préciser parfaitement la notation de chaque proposition mathématique, pour renforcer sa notation de la manière la plus simple et la plus adaptée possible. C'est la raison principale qui a guidé le choix des sujets. Enfin, ce système est spécialement conçu pour résoudre les paradoxes qui, ces dernières années, ont troublé les spécialistes de la logique symbolique et de la théorie des agrégats ; nous pensons que la théorie des types telle que nous la décrivons par la suite, permet non seulement d'éviter les contradictions, mais aussi de détecter précisément les erreurs qui y ont conduit.
+
+Des trois but précédents, le premier et le troisième nous ont mené à adopter des méthodes, des notations et des définitions qui sont plus complexes que celles que nous aurions adoptées si nous n'avions eu en tête que le premier objectif. Cela s'applique tout particulièrement à la théorie des expressions descriptives (\ref{secDes} et \ref{secFonctionDes}) et à la théorie des classes et des relations (\ref{secGenRel} et \ref{secGenClass}). Sur ces deux points, et dans une moindre mesure pour d'autres, il a semblé nécessaire de sacrifier quelque peu la clarté au profit de l'exactitude. Ce sacrifice est toutefois essentiellement temporaire : en effet la notation adoptée au final possède un sens apparent intuitif malgré la grande complexité de sa réelle définition, et celui-ci pourra être utilisé sans difficulté mis à part pour certains points cruciaux. Dés lors, il pourra être utile, dans une première approche de la notation, de considérer sa signification intuitive comme un concept primitif, \textit{i.e.} comme un concept introduit sans définition. Puis lorsque que la notation sera devenue familière, il sera aussi devenu plus simple d'utiliser la notation plus complexe qui est à notre avis plus correcte. Dans le c\oe ur de cet ouvrage, lorsqu'il sera nécessaire de se cantonner fermement à la plus stricte construction logique, il ne sera plus possible d'utiliser les conceptions intuitives ; cela est cependant entièrement possible dans l'introduction. Les explications données dans le chapitre 1 de l'introduction placent la clarté avant l'exactitude : les explications complètes sont en partie fournies dans les autres chapitres de  l'introduction et en partie dans le reste de l'ouvrage.
+
+Dans tous cet ouvrage, l'usage du symbolisme, par opposition au mots, à pour but conceptualiser d'une manière la plus stricte et précise possible les raisonnements démonstratifs. Cet usage a été imposé par la poursuite permanente des trois objectifs précédents. Les raisons de l'extension du symbolisme au delà des concepts de nombre et des opérations généralement associée sont les suivantes :
+\begin{enumerate}
+\item Les concepts employés ici sont plus abstraits que ceux du langage courant. C'est pourquoi il n'y a pas de mot dont la signification principale soit exactement celle requise ici. Tout usage d'un mot aurait alors nécessité une restriction contre nature de leur sens classique et il aurait été plus complexe de s'y restreindre constamment que de définir une nouvelle symbolique.
+\item La structure grammaticale du langage est adaptée à une grande variété d'utilisations. Par conséquent, elle n'est pas assez univoque pour représenter simplement les processus fondamentaux, bien que très abstraits, des raisonnements. En réalité, la simplicité si abstraite des concepts dépasse le langage, celui-ci étant plus adapté à l'expression d'idées complexes. La proposition "une baleine est grosse" représente au mieux cette capacité du langage en décrivant, par une formulation très simple, une situation complexe ; alors qu'expliquer "un est un nombre" dans le langage conduit à une intolérable prolixité. Pour la même raison, l'usage du symbolisme permet des formulations concises, tout particulièrement adaptées à la formulation des concepts et des processus déductifs de cet ouvrage.
+\item L'adaptation des règles du symbolisme aux processus déductifs facilite l'intuition lorsque les concepts deviennent trop abstraits pour que l'imagination permette de comprendre facilement les relations qui les lient. En effet, plus les associations de symboles deviendront familières dans leur représentations d'une association d'idées et qu'alors les relations possibles entre ces symboles, telles que définies par les règles du symbolisme, deviendront familières, plus ces nouvelles associations permettront de décrire des relations de plus en plus complexes. Ainsi, l'esprit pourra finalement mener des raisonnements dans des régions de la pensée où l'imagination serait totalement inefficace sans l'apport du symbolisme. Le langage ordinaire n'apporte pas une telle aide. Une structure grammaticale ne représente pas uniquement les relations entre les idées impliquées. Ainsi "une baleine est grosse" et "un est un nombre" se ressemblant dans la structure, n'apportent aucune aide visuelle à l'imagination.
+\item La concision du symbolisme permet à toute une proposition d'être lisible d'un seul coup d'\oe il, en un seul bloc ou, au plus, en deux ou trois, simplement divisés là où les séparations naturelles (que le symbolisme matérialise) ont lieu. C'est une propriété qui peut sembler anecdotique, mais qui en réalité est très importante lorsqu'on la considère à la lumière de la propriété précédente.
+\item L'énumération complète de tous les concepts et de toutes les étapes de raisonnement employés en mathématiques, en tant que premier objectif de cet ouvrage, nécessite à la fois de la concision et l'explicitation de chaque proposition avec un maximum de formalisme dans une formule aussi caractéristique que possible.
+
+\end{enumerate}
+
+De plus amples éclaircissements quant aux méthodes et au symbolisme de cet ouvrage peuvent être obtenus en réponse aux objections qu'on pourrait lui formuler.
+
+\begin{enumerate}
+\item La majorité de la recherche mathématique ne s'intéresse pas au procédé démonstratif complet, mais présente simplement un résumé de la preuve juste assez détaillé pour convaincre un esprit suffisamment éduqué. Pour de telles recherches, la présentation détaillée de toutes les étapes du raisonnement est bien évidement superflue, tant que le niveau de détail est assez poussé pour éviter les erreurs. À ce sujet, il ne faut pas oublier que les travaux de Weierstrass et de ses collègues ont montré que, même dans les mathématiques traditionnelles, il fallait pousser la rigueur bien au-delà de ce que les générations précédentes de mathématiciens ne l'avaient envisagé.
+\item Dans tous les domaines de la pensée, tant que l'imagination est suffisante à la réflexion l'utilité du symbolisme se réduit à écrire plus vite les formules obtenues sans son aide. Un des objectifs secondaires de cet ouvrage est justement de montrer que par l'usage du symbolisme, les raisonnements déductifs peuvent être étendus à des domaines que l'on considérait traditionnellement comme inaccessibles à la logique mathématique. Et, tant que les concepts de ces domaines ne nous sont pas familiers, un raisonnement détaillé est adapté aux questionnements quant aux propriétés générales de ces objets, en plus d'être aussi nécessaire à l'analyse des étapes de la réflexion.
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+\chapter{Explication préliminaires des concepts et des notations}
+La notation adoptée dans le présent ouvrage est issue de celle de Péano et les explication qui vont suivre sont des adaptations de celles qu'il a introduite dans son \textit{Formulario Mathematico}. Nous avons adopté son usage des points comme parenthèses ainsi que bon nombre de ses symboles. 
+
+\paragraph{Les variables} Le concept de variable, tel qu'il apparait ici, est plus générale que celui utilisée en mathématiques traditionnelle. En effet, dans celle-ci, une variable représente généralement une grandeur indéterminée ou un nombre. En logique mathématique, tout symbole dont le sens n'est pas déterminé est appelé une \textit{variable}, et les différentes possibilités de sens sont appelés les \textit{valeurs} de la variable. Les valeurs peuvent être n'importe quel ensemble d'objets, propositions, fonction classe ou relation, suivant les circonstances. Si une affirmation est formulée à propos "$Mr A$ et $Mr B$", "$Mr A$" et "$Mr B$" sont des variables dont les valeurs sont restreinte à des hommes. La gamme des valeurs possible d'une variable peut soit être déterminée par convention ou (si rien n'a été précisé à ce sujet) avoir être définie comme l'ensemble des valeurs qui donnent un sens à l'affirmation. Ainsi, quand un manuel de logique affirme que "$A$ est $A$" sans autre indication sur ce que $A$ peut désigner, ce qu'il affirme c'est que toute proposition du type "$A$ est $A$" est vrai. Une variable dont la signification est confinée à certaines valeurs parmi celle qu'elle pourrait prendre est appelée \textit{restreinte}, dans le cas contraire on dit qu'elle est \textit{libre}. Ainsi quand une variable libre apparait, elle représente tout objets tel que la proposition dans laquelle elle se trouve puisse être signifiantes (\textit{i.e.} soit vrai soit fausse). Pour l'étude de la logique, les variables libres sont les plus adaptées que les variables restreintes et devraient toujours leur être préférées. Par ailleurs les variables libres sont toujours contraintes par le contexte de son utilisation. En effet, les affirmations qui peuvent être signifiante vis à vis des propositions ne le sont pas forcément vis à vis des classes ou des relations et réciproquement. Mais les restrictions imposées à une variable libre ne sont pas nécessairement écrites explicitement car elle sont imposées par les limites de sens des affirmations où ces variables apparaissent, et par conséquent elles sont intrinsèquement déterminée par l'affirmation. Nous reviendrons plus en détail la dessus plus tard \footnote{\textit{c.f.} \ref{ch:typeLog}}.
+
+Pour résumer : les trois points principaux quant à l'usage des variables sont :
+\begin{enumerate}
+\item une variable est une notation ambigüe et non encore définie.
+\item dans un même contexte, une même variable représente la même entité ; et par conséquent des variables différentes apparaissant dans le même contexte peuvent avoir des valeurs toutes différentes.
+\item les spectres des valeurs possibles de deux variables apparaissant dans le même contexte peuvent être identiques, ils peuvent aussi se rejoignent ou bien encore ils sont totalement différent, de tel sorte à ce que si la valeur d'une des variables est attribué à l'autre, alors la proposition résultante devient dépourvue de sens, plutôt que de devenir une proposition non ambigüe (vrai ou fausse) tel qu'il aurait été le cas si chacune des variables s'était vue attribuée une valeur \textit{acceptable}.
+\end{enumerate} 
+
+\paragraph{L'usage des différentes lettres} Les variables et certaines constantes seront représentées par une lettre seule ; cependant une lettre qui aura déjà été attribuée à une constante lors d'une définition ne pourra plus être utilisée par la suite pour représenter une variable. Les minuscules de l'alphabet latin seront utilisée pour représenter des variables, à l'exception des lettres $p$ et $s$ au delà du paragraphe \ref{sq:produitsommeclasse}, à partir duquel un sens bien défini sera attribué à ces deux lettres. Les majuscules suivantes se verront donner une signification constante : $B$, $C$, $D$, $E$, $F$, $I$, et $J$. Parmi les lettres grecque minuscules ce sera aussi le cas de $\epsilon$, $\iota$\footnote{la lettre $\pi$ était aussi présente dans la première édition avant d'être barrée dans la version imprimée et retirée de la seconde édition. \textit{N.d.T.}} et (plus tard) des lettres $\eta$, $\theta$ et $\omega$. Certaine majuscule de cet alphabet seront, de temps en temps, utilisées comme constantes, cependant, ces majuscules ne seront pas utilisée pour désigner des variables. Parmi les lettres restantes, $p$, $q$ et $r$ seront utilisées pour désigner des propositions (mis à par après le paragraphe \ref{sq:produitsommeclasse}, au delà duquel $p$ ne désignera plus un variable) et seront appelées des \textit{lettres propositionnelles} ; $f$, $g$, $\phi$, $\psi$, $\chi $,
+ $\theta$ et (jusqu'au paragraphe \ref{sq:domaine}) $F$ représenteront des variables de fonction et seront par conséquent appelée \textit{lettres fonctionnelles}.
+
+Les minuscules grec que nous n'avons pas encore mentionnées seront utilisées pour des variables dont les valeurs sont des classes, et on s'y référera simplement comme aux \textit{lettres grecques}. Les majuscules ordinaires, non encore exclues seront utilisée pour les variables dont les valeurs sont des relations, et on les appellera des \textit{lettres majuscules}, tout simplement. Les minuscules ordinaires, autres que celles mentionnées ci-dessus seront utilisées pour les variables dont les valeurs ne sont pas particulièrement des fonctions, des classes ou des relations ; ces lettres seront nommées simplement les \textit{lettres minuscules latines}.
+
+Au delà des premières parties de cette ouvrage, des variables de propositions et de fonctions n'apparaitront que rarement. Nous aurons alors trois grand type de variables : 
+\begin{itemize}
+\item les variables de classes, notées par des lettres grec minuscules,
+\item les variables de relation, notées en majuscules, 
+\item et les variables sans attribution particulières, notées en lettres minuscules latines.
+\end{itemize}
+
+En plus de l'utilisation des minuscules grecques pour les variables de classes, des majuscules pour les variables de relation et des minuscules pour les variables de type entièrement indéterminé (cela ayant pour origine la possibilité d' "ambigüité systématique", qui sera expliquée plus tard lors de l'étude de la théorie des types), le lecteur doit seulement se souvenir que toutes les lettres représentent des variables, à moins qu'elles aient étaient définie comme des constantes quelque part avant dans le livre. De manière générale, le contexte détermine par sa structure le spectre des valeurs des variables qui apparaissent ; mais préciser spécifiquement quelque indication sur la nature des variables employées, tel que nous l'avons fait ici, permet d'éviter de laborieuses réflexions.
+
+\paragraph{Les fonctions propositionnelles élémentaires} Des propositions qui ne sont pas considérées comme ambigüe  être assemblées en une unique proposition plus complexe que ses constituants. C'est en cela une fonction qui \textit{prend pour argument des propositions}. L'idée générale derrière de tels assemblages de propositions, ou des variables qui les représentent, ne sera pas décrite dans cet ouvrage. Cependant, il y a quatre cas particuliers qui sont d'une importance capitale, puisque toutes les propositions complexes qui seront formée en assemblant des propositions élémentaires par la suite, le seront étape par étape et en utilisant le ces quatre fonctions élémentaires.
+
+Il y a : \begin{enumerate}
+\item la négation,
+\item la somme logique ou la disjonction
+\item le produit logique ou la fonction conjonctive
+\item l'implication
+\end{enumerate}
+Ces fonctions, telle que nous les utiliserons dans cet ouvrage, ne sont pas indépendantes ; et si l'on défini deux d'entre elles comme des concepts primitifs non défini, alors les deux autres pourront en être déduit. Par conséquent le choix de celles qui seront considérées comme arbitraire et plus ou moins arbitraire (quoi que pas entièrement). Il semble qu'on gagne une certaine simplicité en prenant les deux premières fonctions comme primitive ainsi qu'une élégante symétrie dans les raisonnements.
+
+La négation de l'argument $p$, où $p$ est n'importe quelle proposition, et la proposition qui est le contraire de $p$/, c'est ainsi la proposition qui affirme que $p$ n'est pas vrai. Cette fonction sera écrite $\sim p$. Dès lors $\sim p$ est la fonction de négation avec l'argument $p$ et signifie la négation de $p$. On y ferra aussi référence comme la proposition ${\rm non -}p$. Ainsi, $\sim p$ signifie ${\rm nom-}p$, c'est à dire la négation de $p$.
+
+La somme logique est une fonction avec deux arguments $p$ et $q$. C'est la fonction qui affirme $p$ ou $q$ indépendamment. C'est à dire qu'au moins une des deux proposition $p$ ou $q$ est vraie. On écrira $p\lor q $. Ainsi $p\lor q $ est la somme logique avec $p$ et $q$ comme argument qu'on appelle aussi la somme logique de $p$ et $q$. Dès lors $p\lor q $ signifie qu'au moins $p$ ou $q$ est vrai, sans exclure la possibilité que les deux soient vrais.
+
+Le produit logique est la fonction propositionnelle de deux argument $p$ et $q$. C'est la proposition qui affirme conjointement que $p$ et $q$ sont toutes deux vraies. On l'écrira $p.q$ ou - dans le but d'user des points comme des parenthèses telles que nous le verrons sous peu- $p:q$, $p:.q$ ou bien encore $p::q$. Ainsi $p.q$ est le produit logique avec $p$ et $q$ pour argument, qu'on appelle aussi le produit logique de $p$ et $q$. Dès lors $p.q$ signifie que $p$ et $q$ sont toutes les deux vraies. On comprendra aisément que cette fonction peut être définie à l'aide des deux fonction précédentes, car si $p$ et $q$ sont vraies, il faut bien qu'il soit faux que $\sim p$ ou $\sim q$ soit vrai. Dès lors $p.q$ n'est au final qu'une abréviation pour $$\sim(\sim p \lor \sim q)$$ 
+Si un d'autres idées se rattachent à la proposition "$p$ et $q$ sont toutes deux vraies", elles ne sont pas nécessaires ici.
+
+L'implication est une fonction propositionnelle de deux arguments $p$ et $q$. c'est la proposition qui affirme que non-$p$ ou $q$ est vrai, c'est à dire la proposition $\sim p\lor q$. Ainsi, si $p$ est vrai, $\sim p$ ne l'étant pas, la proposition $\sim p\lor q$ impose la seconde alternative, c'est à dire que $q$ soit vraie. Autrement dit : si $p$ est vrai et $\sim p\lor q$ sont vraies, alors $q$ l'est aussi. C'est dans ce sens que l'on dira que la proposition $\sim p\lor q$ est la proposition $p$ implique $q$. Le concept représenté par cette fonction propositionnelle et si important  qu'il requiert un symbolisme adapté, qui puisse le représenter en liant $p$ et $q$ sans faire intervenir $\sim p$. Cependant l'<<implication>> dont nous parlons n'exprime aucune autre relation entre $p$ et $q$ que celle de la disjonction << non-$p$ ou $q$ >>. Le symbolisme employé pour << $p$ implique $q$ >> est << $p\supset q$ >>. Ce symbolisme pourra aussi être lu << si $p$, alors $q$ >>. La combinaison d'une implication et de variables apparentes fera naitre le concept d' << implication formelle >>. Cette idée qui dérive de l'implication telle que nous venons de la définir sera expliquée plus tard. Lorsqu'il sera nécessaire de distinguer l' << implication >> de l' <<implication formelle >>, on parlera d' << implication matérielle >>. par conséquent << l'implication matérielle >> est simplement l'implication telle que nous venons de la définir.
+En revanche le processus d'inférence, que l'on confond souvent avec l'implication sera expliqué dans la suite de cette partie.
+
+Ces quatre fonctions propositionnelles sont les fonctions propositionnelles fondamentales. Ce sont des constantes (car elles ont été définies) qui prennent des propositions pour arguments, et toutes les autres fonctions propositionnelles prenant des propositions pour arguments seront construites par étapes successives à partir de ces quatre fonctions fondamentales avant d'être utilisées dans cet ouvrage. En effet, nous n'utiliserons aucune variable représentant une fonction propositionnelle de ce type ici. 
+
+\paragraph{L'équivalence} L'équivalence est l'exemple le plus simple de construction d'une fonction propositionnelle plus complexe construite à partir des quatre propositions fondamentales. Deux propositions $q$ et $q$ sont dites équivalente si $p$ implique $q$ et $q$ implique $p$. Cette relation entre $p$ et $q$ est écrite << $p\equiv q$ >>.
+ Ainsi << $p\equiv q$ >> remplace << $(p\subset q).(q\subset p)$ >>. On comprendra aisément que deux fonctions sont équivalentes si et seulement si elles sont toutes les deux vraies ou toutes les deux fausses. L'équivalence deviendra un concept plus important quand nous en serons à l' << implication formelle >> et par conséquent à l' << équivalence formelle >>. On notera par ailleurs qu'il n'est pas supposé que les deux propositions reliée par l'équivalence aient quoi que ce soit d'identique, ni même qu'elles concerne vaguement le même sujet. Ainsi : << Newton était un homme >> et << le Soleil est chaud >> sont deux propositions équivalentes étant donnée que toutes deux sont vraies. Mais nous anticipons ici le concept de la déduction, qui viendra plus tard dans notre raisonnement formel. L'équivalence, à l'origine, n'est que l'implication mutuelle telle que nous venons de la définir.
+
+\paragraph{Valeur de vérité} la \textit{valeur de vérité} d'une proposition est \textit{Vrai} si la proposition est vraie, \textit{Faux}, si la proposition est fausse\footnote{La formulation initiale, inspirée de Frege, était << \textit{The "truth-value" of a proposition is \emph{truth} if it is true, and \emph{falsehood} if it false} >> que l'on pourrait traduire par \textit{vérité} et \textit{mensonge}, cependant ces termes ne sont plus utilisés aujourd'hui par soucis de simplicité on traduira donc \textit{truth} par \textit{Vrai} et \textit{falshood} par \textit{Faux} dans ce contexte-ci. (\textit{N.d.T.})}.
+On remarquera que la valeur de vérité de $p\lor q$, $p.q$, $p\subset q$, $\sim p$ et $p\equiv q$ dépend uniquement de celle de $p$ et $q$. Plus précisément, la valeur de vérité de $p\lor q$ est \textit{Vrai} si celle de $p$ ou celle de $q$ est \textit{Vrai}, \textit{Faux} sinon ; celle de $p.q$ est \textit{Vrai} si celle de $p$ et celle de $q$ est \textit{Vrai}, \textit{Faux} sinon ; la valeur de vérité de $p\subset q$ est \textit{Vrai} si celle de $p$ est \textit{Faux} ou si celle de $q$ est \textit{Vrai}; celle de $\sim p$ est l'opposée de celle de $p$ ; et celle de $p\equiv q$ est \textit{Vrai} si $p$ et $q$ on exactement la même valeur de vérité, et \textit{Faux} sinon. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\chapter{La théorie des types logiques}
+\label{ch:typeLog}
+\chapter{Quelques symboles}
+\part{La logique mathématique}
+\label{logiquemath}
+\section*{Résumé de la première partie}
+\chapter{La théorie de la déduction}
+\section{Idées primitives et propositions}
+\section{Conséquences immédiates des idées primitives}
+\section{Le produit logique de deux propositions}
+\section{\'Equivalence et règles formelles}
+\section{Propositions diverses}
+\chapter{Théorie de la variable apparente}
+\section{Extension de la théorie des proposition en fonction du type de proposition}
+\section{Théorie des propositions contenant un variable apparente}
+\section{Hiérarchie des types et axiome de réductibilité}
+\section{Identité}
+\section{Description}
+\label{secDes}
+\chapter{Classes et des relations}
+\section{Théorie générale des classe}
+\label{secGenClass}
+\section{Théorie générale des relations}
+\label{secGenRel}
+\section{Calcul des classes}
+\section{Calcul des relations}
+\section{La classe universelle, la classe nulle, et l'existence des classes}
+\section{La relation universelle, la relation nulle et l'existence des relations}
+\chapter{Logique des relations}
+\section{Fonctions descriptives}
+\label{secFonctionDes}
+\section{Relations converse}
+\section{Reférent et relaté d'un terme en rapport avec une relation donnée}
+\section{Domaine, domaine converse et champ d'une relation}
+\label{sq:domaine}
+\section{Le produit relatif de deux relations}
+\section{Relation avec des domaine et des domaines converses limités}
+\section{Relation avec des champs limités}
+\section{Fonction descriptives multiples}
+\section{Classe et relation issue des fonctions doubles descriptives}
+\chapter{Produits et sommes de classe}
+\section{Produit et somme de classe de classe}
+\label{sq:produitsommeclasse}
+\section{Le produit et la somme des classes de relation}
+\section{Propositions variées}
+\section{La relation entre un produit relatif et ses facteurs.}
+
+
+
+
+
+
+\backmatter
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+
+\end{document}
+
